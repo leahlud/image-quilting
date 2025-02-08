@@ -1,4 +1,4 @@
-# Image Quilting
+# image-quilting
 
 **To run:**
 - download and install [Miniconda](https://docs.anaconda.com/miniconda/)
