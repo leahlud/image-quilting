@@ -1,4 +1,4 @@
-# image-quilting
+# Audio Computing
 
 **To run:**
 - download and install [Miniconda](https://docs.anaconda.com/miniconda/)
