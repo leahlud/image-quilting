@@ -1,22 +1,25 @@
-# image-quilting
+# Audio Computing
+
+**Python environment setup:**
+- create & activate the virtual environment
+
+  `python -m venv myenv`
+  
+  `myenv\Scripts\activate`
+
+- install dependencies
+
+  `pip install -r requirements.txt`
 
 **To run:**
-- download and install [Miniconda](https://docs.anaconda.com/miniconda/)
+- activate the virtual environment
 
-- open Miniconda prompt (Anaconda Prompt)
+  `myenv\Scripts\activate`
 
-- create and activate a new virtual environment
+- navigate to project folder
 
-  `conda create -n cs445 python=3.7`
+  `cd path\to\project`
 
-  `conda activate cs445`
-
-- install necessary python libraries:
-
-  `conda install -y numpy scipy opencv matplotlib jupyter`
-
-  `pip install opencv-contrib-python`
-  
-- activate jupyter notebook
+- launch Jupyter Notebook in browser
 
   `jupyter notebook`
