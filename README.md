@@ -1,22 +1,25 @@
 # Audio Computing
 
-**To run:**
-- download and install [Miniconda](https://docs.anaconda.com/miniconda/)
+**Python environment setup:**
+- create & activate the virtual environment
 
-- open Miniconda prompt (Anaconda Prompt)
-
-- create and activate a new virtual environment
-
-  `conda create -n cs445 python=3.7`
-
-  `conda activate cs445`
-
-- install necessary python libraries:
-
-  `conda install -y numpy scipy opencv matplotlib jupyter`
-
-  `pip install opencv-contrib-python`
+  `python -m venv myenv`
   
-- activate jupyter notebook
+  `myenv\Scripts\activate`
+
+- install dependencies
+
+  `pip install -r requirements.txt`
+
+**To run:**
+- activate the virtual environment
+
+  `myenv\Scripts\activate`
+
+- navigate to project folder
+
+  `cd path\to\project`
+
+- launch Jupyter Notebook in browser
 
   `jupyter notebook`
